@@ -28,37 +28,17 @@ A restaurant management system (RMS) is a comprehensive web-based application de
 code blocks for commands
 ```
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+We would like to express our sincere gratitude to all those who have contributed to the development and success of our Restaurant Management System (RMS). This project would not have been possible without the support and dedication of our team members, whose expertise and hard work have been invaluable.
+
+We extend our heartfelt thanks to our software developers, designers, and testers for their commitment to creating a robust and user-friendly platform. Special appreciation goes to our project managers for their guidance and leadership throughout the development process.
+
+We are also grateful to the restaurant owners and managers who provided us with critical insights and feedback, helping us tailor the system to meet the real-world needs of the hospitality industry. Their input has been instrumental in ensuring our RMS addresses the challenges faced in daily restaurant operations.
+
+Finally, we acknowledge the support of our families and friends, whose patience and encouragement have been a source of strength and motivation.
+
+Thank you all for your contributions to this successful endeavor.

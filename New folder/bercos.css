@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  /* navbar section */
+  .navbar {
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: #fff;
+    z-index: 1000;
+    padding: 0 20px;
+  }
+  .navbar .nav {
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    container: 100px;
+  }
+  .navbar .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .left .logo {
+    display: block;
+    height: 49px; ;
+    transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    margin-right: 16px;
+  }
+  .navbar .left .logo:hover {
+    transform: scale(1.1);
+  }
+  .navbar .location-div,
+  .other {
+    position: relative;
+  }
+  .navbar .location-div {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    max-width: 300px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: -1px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .navbar .right {
+    position: relative;
+  }
+  .location-div .other {
+    font-weight: 700;
+    color: #3d4152;
+    float: left;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #3d4152;
+  }
+  .location-div .other:hover {
+    color: #fc8019;
+    border-bottom: 2px solid #fc8019;
+  }
+  .location-div .location {
+    display: block;
+    font-weight: 300;
+    padding-left: 5px;
+    margin-left: 5px;
+    color: #686b78;
+  }
+  .location-div .arrow-down {
+    position: absolute;
+    right: -6%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #fc8019;
+    font-weight: 700;
+  }
+  .right .items {
+    display: flex;
+    align-items: center;
+  }
+  .right .items li {
+    margin-right: 36px;
+    color: #3d4152;
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: none;
+  }
+  .right .items .nav-item {
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    position: relative;
+    height: 80px;
+    cursor: pointer;
+  }
+  .right .items .nav-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3d4152;
+    font-size: 16px;
+  }
+  .nav-item a:hover {
+    color: #fc8019;
+  }
+  
+  .nav-item a span {
+    padding-left: 11px;
+  }
+  .right .items li:last-child a svg {
+    color: #60b246;
+  }
+  
+  
+                /* header nav bar start */
+                body {
+                  margin: 0;
+          
+                  background-color: rgba(175, 170, 170, 0.288);
+                }
+                #header2 {
+                  display: flex;
+                  position: fixed;
+                  width: 100%;
+                  justify-content: center;
+                  margin: 20px;
+                  background-color: white;
+                  z-index: 2;
+                  margin-top: 0;
+                  padding-top: 20px;
+                  padding-left: 20px;
+                }
+                #navend {
+                  position:fixed;
+                  width: 100%;
+                  padding-bottom: 20px;
+                  padding-left: 20px;
+                  background-color: white;
+                }
+                #serachbar2 {
+                  display: flex;
+                  align-items: center;
+                  height: 30px;
+                  border: 1px solid black;
+                  border-radius: 5px;
+                }
+                #header2::after {
+                  border-top: 1px solid #333;
+                }
+                
+                .searchLogo2 {
+                  width: 20px;
+                  display: block;
+                  margin: 0px -10px 0 10px;
+                }
+                .city2 {
+                  margin-top: 5px;
+                  margin-left: 20px;
+                  margin-bottom: 20px ;
+                  height: 30px;
+                  align-self: center;
+                  padding-left: 30px;
+                  padding-right: 10px;
+                  width: 300px;
+                  align-self: flex-start;
+                  color: #151414;
+                }
+                
+                #search2 {
+                  margin-left: 20px;
+                  height: 25px;
+                  width: 250px;
+                  padding-left: 40px;
+                  border-radius: 5px;
+                  border: none;
+                  outline: none;
+                  margin-right: 20px;
+                }
+                #searchBut2 {
+                  height: 32px;
+                  margin-left: 80px;
+                  margin-right: -1px;
+                  font-weight: bold;
+                  font-size: 90%;
+                  color: white;
+                  background-color: #ff5ab8;
+                  border: 0;
+                  border-radius: 5px;
+                  padding: 1px 20px;
+                }
+                #searchBut2:hover {
+                  cursor: pointer;
+                  background-color: red;
+                }
+                #log {
+                  margin-left: 20px;
+                  height: 32px;
+                  font-size: 90%;
+                  font-weight: bold;
+                  color: white;
+                  background-color: #ff645a;
+                  border: 0;
+                  border-radius: 5px;
+                  padding: 6px 40px;
+                }
+                #log:hover {
+                  cursor: pointer;
+                }
+                #loc1 {
+                  position: absolute;
+                  left: 265px;
+                  top: 35px;
+                }
+                #searchlogo {
+                  position: absolute;
+                  left: 510px;
+                  top: 35px;
+                }
+                #lowerhead {
+                  display: flex;
+                  justify-content: center;
+                  background-color: white;
+                  padding-bottom: 10px;
+                  margin-top: 20px;
+                  font-style: oblique;
+                  font-weight: bolder;
+                }
+                #lowerhead a {
+                  text-decoration: none;
+                  margin: 20px;
+                  color: #333;
+                }
+                #lowerhead a:hover {
+                  color: red;
+                }
+                #mainHeader {
+                  box-shadow: rgba(0, 0, 0, 0.144) 0px 25px 20px -20px;
+                  padding-bottom: 10px;
+                  background-color: white;
+                }
+                #location2 {
+                  width: 0;
+                  height: 0;
+                  align-self: flex-start;
+                  z-index: 1;
+                }
+                #city2 > select {
+                  width: 150px;
+                  margin-top: -10px;
+                }
+                #loc2 {
+                  width: 20px;
+                  padding-top: 6px;
+                  padding-left: 35px;
+                }
+          
+                #city2 {
+                  display: flex;
+                  margin: 0;
+                  padding: 0px 10px;
+                }
+                /* header Nav bar end */
+               
+                .sticky {
+                  position: sticky;
+          
+                  width: 100%;
+                }
+                #loginD {
+                  margin: 2px 0 0 55px;
+                }
+                #loginD select {
+                  height: 30px;
+                  width: 120px;
+                  border-radius: 5px;
+                  border: none;
+                  outline: none;
+                }
+                #loginD i {
+                  margin: 0 10px 0 -20px;
+                }
+                #booktable {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-top: 150px;
+                  
+                }
+                #booktable > div {
+                  width: 740px;
+                  background-color: white;
+                  border-radius: 10px;
+                  overflow: hidden;
+                  margin-left: -70px;
+                  padding-bottom: 20px;
+                  padding-top: 15px;
+                }
+                #booktable > div > div:first-child > img {
+                  width: 100%;
+                  height: 405px;
+                }
+                #InfoHotel {
+                  margin-left: 20px;
+                  white-space:inherit;
+                  justify-content: space-around;
+                }
+                #InfoHotel > p {
+                  color: gray;
+              }
+              .m1{
+                font-style: normal;
+                font-weight: bolder;
+                font-size: 20px;
+                text-align: center;
+                font-family: "Sofia", sans-serif;
+                text-decoration: underline;
+              }
+  
+              .footer {
+                font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+                  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                  "Segoe UI Symbol";
+                font-size: 1.4rem;
+                line-height: 1.5;
+                font-weight: 400;
+                width: 100%;
+                justify-content: space-around;
+              }
+              .footer {
+                display: grid;
+                width: 100%;
+              }
+              .footersection {
+                margin-top: 50px;
+                margin-left: -120px;
+              }
+              .footer > .box {
+                color: #ff5ab8;
+                margin-left: 50px;
+                font-size: 16px;
+              }
+              
+              .footer > .container > .boxs li {
+                cursor: pointer;
+                list-style-type: none;
+                text-align: justify;
+                padding: 8px;
+                padding-left: 50px;
+                color: #666666;
+                font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+                  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                  "Segoe UI Symbol";
+                font-size: 14px;
+              }
+              
+              .footer > .container {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 15px;
+              }
+              
+              .footer > .container > .boxs {
+                column-gap: 50px;
+                width: 200px;
+                cursor: pointer;
+              }
+              
+              .footersection h4::after {
+                content: "";
+                display: block;
+                width: 25px;
+                padding: 1rem 0 0;
+                border-bottom: 2px solid #ff5ab8;
+              }
+              
+              ::after {
+                box-sizing: border-box;
+              }
+              
+              .footersection hr {
+                display: block;
+                unicode-bidi: isolate;
+                margin-block-start: 0.5em;
+                margin-block-end: 0.5em;
+                margin-inline-start: auto;
+                margin-inline-end: auto;
+                border-style: inset;
+                border-width: 1px;
+              }
+              
+              .footersection hr {
+                box-sizing: content-box;
+                height: 0;
+                overflow: visible;
+                border-top: 1px solid #f3f3f3;
+                margin: 50px 0 50px 0;
+              }
+              
+              .footer {
+                display: grid;
+                width: 100%;
+                justify-content: space-around;
+              }
+              
+              .footerr {
+                display: grid;
+                width: 100%;
+                justify-content: space-around;
+              }
+              
+              .footerr > .containerr > .boxs li {
+                list-style-type: none;
+                text-align: justify;
+                padding: 8px;
+                color: #666666;
+                font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+                  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                  "Segoe UI Symbol";
+                font-size: 14px;
+                width: max-content;
+              }
+              
+              .footerr > .containerr {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 15px;
+              }
+              
+              .footerr > .containerr > .boxs {
+                column-gap: 50px;
+                width: 200px;
+              }
+              
+              .footerr {
+                display: grid;
+                width: 100%;
+                justify-content: space-around;
+              }
+              .footerr > .containerr > .boxs h4 {
+                color: #ff5ab8;
+                margin-left: 50px;
+                font-size: 16px;
+                cursor: pointer;
+              }
+              .footerr > .containerr > .boxs ul {
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+                
+              }
+              .imageF {
+                text-align: center;
+              }
+              .imageF > .footerImg {
+                width: 110px;
+                height: 60px;
+              }
+              .imageF > p {
+                font-size: 12px;
+              }
+              .imgMdiv {
+                margin: 15px 0 10px 0;
+              }
+  
+  
+  
+  
+  
+              div.gallery {
+                border: 1px solid #ffffff;
+              }
+              
+              div.gallery:hover {
+                border: 1px solid #ff16b9;
+              }
+              
+              div.gallery img {
+                width: 100%;
+                height: auto;
+              }
+              
+              div.desc {
+                padding: 10px;
+                text-align: center;
+              }
+              
+              * {
+                box-sizing: border-box;
+              }
+              
+              .responsive {
+                padding: 0 6px;
+                float: left;
+                width: 24.99999%;
+              }
+              
+              @media only screen and (max-width: 700px) {
+                .responsive {
+                  width: 49.99999%;
+                  margin: 6px 0;
+                }
+              }
+              
+              @media only screen and (max-width: 500px) {
+                .responsive {
+                  width: 100%;
+                }
+              }
+              
+              .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              .m2{
+                height: 500px;
+                width: 100%;
+                padding: 10px;
+              }
+
+              

@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+  }
+ /* header nav bar start */
+                body {
+                  margin: 0;         
+                  background-color: rgba(175, 170, 170, 0.288);
+                }
+                #logo{
+                  align-content: center;
+                  height: max-content;
+                  width: max-content;
+                }
+                .header2 {
+                  display: flex;
+                  position: fixed;
+                  width:100%;
+                  justify-content : center; 
+                  margin: 20px;
+                  background-color: white;
+                  z-index: 2;
+                  margin-top: 0;
+                  padding-top: 20px;
+                  padding-right: 40px;
+                  padding-left: 170px;
+                  padding-bottom: 20px;
+                  margin-left: -70px;
+                  margin-right: 180px;
+                }
+                #navend {
+                  position:fixed;
+                  width: 100%;
+                  padding-bottom: 20px;
+                  padding-left: 20px;
+                  background-color: white;
+                }
+                #serachbar2 {
+                  margin-left: 50px;
+                  display: flex;
+                  align-items: center;
+                  align-content: center;
+                  align-self: center;
+                  height: 30px;
+                }
+                .number{
+                  font-family: sans-serif;
+                  font-style: oblique;
+                  font-weight: bolder;
+                  color: rgb(255, 73, 222);
+                  text-shadow: 0 0 3px #000000, 0 0 6px #000000;
+                }
+                #header2::after {
+                  border-top: 1px solid #333;
+                }
+                
+                .searchLogo2 {
+                  width: 20px;
+                  display: block;
+                  margin: 0px -10px 0 10px;
+                }
+               
+          
+                #loginD{
+                align-items: flex-end;
+                margin-left: 90px;
+                height: 32px;
+                font-size: 90%;
+                font-weight: bold;
+                color: rgb(255, 72, 182);
+                padding: 6px 40px;
+                }
+               
+                #loginD:hover {
+                  cursor: pointer;
+                }
+                #loginD {
+                  margin: 2px 0 0 40px;
+                }
+                #loginD select {
+                  height: 30px;
+                  width: 120px;
+                  border-radius: 5px;
+                  border: none;
+                  outline: none;
+                }
+                #loginD i {
+                  margin: 0 10px 0 -20px;
+                }
+                #loc1 {
+                  position: absolute;
+                  left: 265px;
+                  top: 35px;
+                }
+                #searchlogo {
+                  position: absolute;
+                  left: 510px;
+                  top: 35px;
+                }
+                #lowerhead {
+                  display: flex;
+                  justify-content: center;
+                  background-color: white;
+                  padding-bottom: 400px;
+                  margin-top: 20px;
+                  font-style: oblique;
+                  font-weight: bolder;
+                }
+                #lowerhead a {
+                  text-decoration: none;
+                  margin: 20px;
+                  color: #333;
+                }
+                #lowerhead a:hover {
+                  color: red;
+                }
+                #mainHeader {
+                  box-shadow: rgba(0, 0, 0, 0.144) 0px 25px 20px -20px;
+                  padding-bottom: 40px;
+                  background-color: white;
+                  padding-left: 20px;
+                  width: 100%;
+                }
+                
+                /* header Nav bar end */
+  /* Content Section */
+  .restaurants .container {
+    max-width: 1200px;
+    min-width: 1200px;
+    margin-top: 120000px;
+    position: relative;
+    margin: 20px auto;
+    padding-top: 0px;
+    top: 4f g0px;
+    background: #fff;
+    left: 10px;
+    margin-top: 55px;
+    border-radius: 10px;
+  }
+ 
+  
+  .filters div:hover::after {
+    color: #3d4152;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    height: 1px;
+    top: 31px;
+    background: #282c3f;
+  }
+  .restaurant-list {
+    margin-bottom: 85px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-content: space-between;
+    padding-top: 39px;
+    margin-top: 30px;
+  }
+  
+  .restaurant-list .place-link {
+    background: #fff;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .restaurant-list .list-item {
+    padding: 25px 25px 57px;
+    border: 1px solid #fff;
+    contain: content;
+  }
+  .restaurant-list .list-item:hover {
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
+  }
+  .restaurant-list .item-content {
+    width: 254px;
+    position: relative;
+  }
+  .top-img {
+    background: #eef0f5;
+    width: 254px;
+    height: 160px;
+    position: relative;
+  }
+  .top-img img {
+    opacity: 1;
+  }
+  .status {
+    position: absolute;
+    left: -8px;
+    top: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 9px 4px;
+    max-width: 50%;
+    text-transform: uppercase;
+  }
+  .status::before {
+    position: absolute;
+    bottom: -9px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: inherit;
+    left: 0;
+    border-width: 9px 0 0 9px;
+  }
+  
+  .place-name-div {
+    margin-top: 14px;
+  }
+  .place-name-div .name {
+    font-size: 17px;
+    font-weight: 500;
+    /* to bring text in next line */
+    word-break: break-word;
+  }
+  .place-name-div .food-items {
+    color: #686b78;
+    font-size: 13px;
+    margin-top: 4px;
+    font-weight: 300;
+  }
+  .info-div {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    font-size: 12px;
+    justify-content: space-between;
+    color: #535665;
+    font-weight: 300;
+  }
+  .info-div .rating {
+    background-color: #db387c;
+    color: #ffffff;
+    height: 20px;
+    width: 36px;
+    padding: 0 5px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+  }
+  .icon-star {
+    font-size: 10px;
+    margin-right: 4px;
+    position: relative;
+    top: -1px;
+  }
+  .offer-div {
+    border-top: 1px solid #e9e9eb;
+    padding-top: 14px;
+    margin-top: 14px;
+    color: #e40048;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+  .offer-div .icon-offer-filled {
+    font-size: 16px;
+    width: 20px;
+    height: 16px;
+    margin-right: 4px;
+  }
+  
+  .offer-div .offer-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .offer-text .fa-tags {
+    margin-right: 2px;
+  }
+  
+  .place:hover .quick-view {
+    visibility: visible !important;
+  }
+  
+  .quick-view {
+    color: #686b78;
+    font-size: 13px;
+    visibility: hidden;
+    border-top: 1px solid #e9e9eb;
+    padding-top: 14px;
+    margin-top: 14px;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 14px;
+  }
+  
+  .quick-view .view-btn {
+    color: #5d8ed5;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+/* Footer Section */
+
+.footer {
+  font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100%;
+  justify-content: space-around;
+}
+.footer {
+  display: grid;
+  width: 100%;
+}
+.footersection {
+  margin-top: 50px;
+  margin-left: -120px;
+}
+.footer > .box {
+  color: #ff5ab8;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.footer > .container > .boxs li {
+  cursor: pointer;
+  list-style-type: none;
+  text-align: justify;
+  padding: 8px;
+  padding-left: 50px;
+  color: #666666;
+  font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 14px;
+}
+
+.footer > .container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.footer > .container > .boxs {
+  column-gap: 50px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.footersection h4::after {
+  content: "";
+  display: block;
+  width: 25px;
+  padding: 1rem 0 0;
+  border-bottom: 2px solid #ff5ab8;
+}
+
+::after {
+  box-sizing: border-box;
+}
+
+.footersection hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.footersection hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  border-top: 1px solid #f3f3f3;
+  margin: 50px 0 50px 0;
+}
+
+.footer {
+  display: grid;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footerr {
+  display: grid;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footerr > .containerr > .boxs li {
+  list-style-type: none;
+  text-align: justify;
+  padding: 8px;
+  color: #666666;
+  font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 14px;
+  width: max-content;
+}
+
+.footerr > .containerr {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.footerr > .containerr > .boxs {
+  column-gap: 50px;
+  width: 200px;
+}
+
+.footerr {
+  display: grid;
+  width: 100%;
+  justify-content: space-around;
+}
+.footerr > .containerr > .boxs h4 {
+  color: #ff5ab8;
+  margin-left: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footerr > .containerr > .boxs ul {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  
+}
+.imageF {
+  text-align: center;
+}
+.imageF > .footerImg {
+  width: 110px;
+  height: 60px;
+}
+.imageF > p {
+  font-size: 12px;
+}
+.imgMdiv {
+  margin: 15px 0 10px 0;
+}
+
+.points img {
+    border: 2px solid #808080;
+    padding: 10px;
+    margin: 30px 0px 10px 57px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.points img:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.o{
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(160, 42, 115, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(128, 0, 100);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.o:hover {
+  box-shadow: rgb(255, 40, 165) 0 -25px 18px -14px inset,rgba(255, 49, 193, 0.25) 0 1px 2px,rgba(187, 44, 139, 0.25) 0 2px 4px,rgba(187, 44, 115, 0.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}

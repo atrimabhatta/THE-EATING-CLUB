@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Eating Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="booktable.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;900&display=swap" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/584aebd994.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <header id="mainHeader">
+            <div id="header2">
+                <div id="logo">
+                    <a href="swigy.html"><img src="logo.jpg" alt="Dineout" title="The Eating Club" width="90" height="42" /></a>
+                </div>
+                <div id="serachbar2">
+                    
+                    <input type="text" id="search2" placeholder="Search for Restaurants, Cuisines, Location..." />
+                    <button type="submit" id="searchBut2">Search</button>
+                </div>
+                <div id="loginD">
+                  <i class="fa-solid fa-user"></i>
+                  <select name="" id="changeP" onchange="changePage()">  
+                      <option value="">Please select...</option> 
+                      <option value="afterLoginpage.html">My Account</option>  
+                      <option value="myprofile.php">My Profile</option>  
+                      <option value="index.html">Logout</option>  
+                    </select> 
+                     
+                    <script> 
+                    function changePage() { 
+                      var select = document.getElementById('changeP'); 
+                      var value = select.value; 
+                      if (value) { 
+                        window.location = value; 
+                      } 
+                    } 
+                    </script>
+              </div>
+            </div>
+        </header>
+        <div class="r">
+            <form id="ReservationForm" action="book.php" method="post">
+                <div id="reserHead">WHAT'S YOUR PREFERENCE</div>
+                <input type="uni_id" name="uni_id" id="uni_id" placeholder="Id" required />
+                <input type="name" name="name" id="name" placeholder="Name" required />
+                <input type="email" name="email" id="email" placeholder="Email Id" required />
+                <input type="mobnumber" name="mobnumber" id="mobnumber" placeholder="Mobile Number" />
+                <select name="restaurant" id="restaurant" required style="width: 76%;">
+                            <option value="La Pino'z Pizza">La Pino'z Pizza</option>
+                            <option value="Bercos - If you love Chinese">Bercos - If you love Chinese</option>
+                            <option value="Wack Waffles & Brownies">Wack Waffles & Brownies</option>
+                            <option value="Takeout Cafe">Takeout Cafe</option>
+                            <option value="Healthy Bhukkad's">Healthy Bhukkad's</option>
+                            <option value="Momo Mom by Oriental Mom">Momo Mom by Oriental Mom</option>
+                            <option value="Firangi Bake">Firangi Bake</option>
+                            <option value="Chili's American Grill & Bar">Chili's American Grill & Bar</option>
+                            <option value="Babu Culture">Babu Culture</option>
+                            <option value="Dada Boudi Hotel">Dada Boudi Hotel</option>
+                            <option value="Oudh 1590">Oudh 1590</option>
+                            <option value="Ozora">Ozora</option><!-- Options -->
+                </select>
+                <select name="location" id="location" required style="width: 76%;">
+                            <option value="Delhi">Delhi</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Bangalore">Bangalore</option>
+                </select>
+                <br>
+                <label for="date">Timings:</label><br>
+                <input type="datetime-local" id="reservationdatetime" name="reservationdatetime" required /><br>
+                <label for="tableType">What Type Of Table To Book:</label>
+                <select name="tabletype" id="tabletype" required style="width: 76%;">
+                    <option value="Single Table (0-1 Persons)">Single Table (0-1 Persons)</option>
+                    <option value="Medium Table (2-4 Persons)">Medium Table (2-4 Persons)</option>
+                    <option value="Large Table ( 5-8 Persons)">Large Table (5-8 Persons)</option>
+                </select><br>
+                <input class="con" type="submit" value="Continue" style="background-color: #ff5ac0; color: white; font-size: 15px; font-weight: bold; width: 75%; height: 28px; margin-top: 30px; margin-bottom: 10px; margin-left: 10%;" />
+            </form>
+        </div>
+        
+    <hr />
+    <div class="imageF">
+      <img
+        class="footerImg"
+        src="logo.jpg"
+        alt="logo"
+      />
+      <p style="margin: 15px 0 15px 0;">Find the best Restaurants, Deals, Discounts & Offers</p>
+      <p>contact:+91-9212340202</p>
+    
+      <p style="margin-bottom: 50px;">© 2017, theeatingclub.co.in. All Rights Reserved.</p>
+    </div>
+    </section>
+    </div>
+</body>
+
+</html>

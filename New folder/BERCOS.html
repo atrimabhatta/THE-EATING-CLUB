@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Bercos - If you love chinese</title>
+    <link rel="icon" sizes="500x500" href="logo.jpg">
+    <link rel="stylesheet" href="berco1.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <div>
+                <div>
+                  <script src="https://kit.fontawesome.com/584aebd994.js"crossorigin="anonymous" ></script>
+                     <header id="mainHeader">
+                    <div id="header2">
+                        <div id="logo">
+                            <a href="swigy.html"><img src="logo.jpg" alt="Dineout" title="The Eating Club" width="90" height="42"/></a>
+                        </div> 
+                        <div id="serachbar2">
+                            <div>
+                                <img class="searchLogo2" style="font-size: 20px" src="serchlogo.png" alt=""/>
+                            </div>
+                            <input type="text" id="search2" placeholder="Search for Restaurants, Cuisines, Location..."/>
+                            <button type="submit" id="searchBut2">Search</button></div>
+                            <div id="loginD">
+                              <i class="fa-solid fa-user"></i>
+                              <select name="" id="changeP" onchange="changePage()">  
+                                  <option value="afterLoginpage.html">My Account</option>  
+                                  <option value="myprofile.php">My Profile</option>  
+                                  <option value="index.html">Logout</option>  
+                                </select> 
+                                 
+                                <script> 
+                                function changePage() { 
+                                  var select = document.getElementById('changeP'); 
+                                  var value = select.value; 
+                                  if (value) { 
+                                    window.location = value; 
+                                  } 
+                                } 
+                                </script>
+                          </div>
+                    </div>
+                    <div id="navend">
+                    <div id="lowerhead">
+                        <div><a href="swigy.html">Home</a></div>
+                        <div><a href="booktable.html">Book A Table</a></div>
+                        <div><a href="">Dineout Pay</a></div>
+                    </div>
+                  </div>
+          </header>
+                <section>
+                    <div id="booktable">
+                        <div>
+                        <div>
+                            <img id="hotelImgh" src="14.jpg" alt="" />
+                        </div>
+                        <div>
+                            <div id="InfoHotel">
+                                <h2 id="nameOfHotel">Bercos - If you love chinese</h2>
+                                <p id="PriceOfHotel"> ₹ 500 for 2 |  Chinese, Italian, Continental
+                                </p>
+                                <p id="AdressOfHotel">    Scindia House    |   Connaught Place   |    Kolkata   |</p>
+                                <p>Time: 11:00 AM to 12:00 AM</p>
+                            </div>
+                        </div>
+                        <div class="m1">Menu</div>
+                        <div>
+                          <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_5terre.jpg">
+                                <img src="15.avif" alt="Cinque Terre" width="700" height="400">
+                              </a>
+                              <div class="desc">Chicken Thupka Soup</div>
+                            </div>
+                          </div>
+                          <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_5terre.jpg">
+                                <img src="16.avif" alt="Cinque Terre" width="700" height="400">
+                              </a>
+                              <div class="desc">Juicy Chicken Drumsticks</div>
+                            </div>
+                          </div>
+                          <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_5terre.jpg">
+                                <img src="18.avif" alt="Cinque Terre" >
+                              </a>
+                              <div class="desc">Basil Mushroom Bao</div>
+                            </div>
+                          </div>
+                          <div class="responsive">
+                            <div class="gallery">
+                                <a target="_blank" href="img_5terre.jpg">
+                                <img src="17.avif" alt="Cinque Terre" style="height: 100;">
+                              </a>
+                              <div class="desc">Grilled Fish With Roasted Basil And Chillies</div>
+                            </div>
+                          </div>
+                          <div>
+                            <a href="booktable.html"><button type="submit" id="searchBut2" style="background-color: #ff5ac0; color: white;  font-size: 15px; font-weight: bold; width: 50%; height: 28px; margin: 0; margin-left: 25%;"/>BOOK TABLE </button></a>
+                          </div>
+                          <div><img class="m2" src="13.webp"></div>
+                        </div>
+                    </div>
+                    
+            </div>
+        <hr />
+        <div class="imageF">
+          <img
+            class="footerImg"
+            src="logo.jpg"
+            alt="logo"
+          />
+          <p style="margin: 15px 0 15px 0;">Find the best Restaurants, Deals, Discounts & Offers</p>
+          <p>contact:+91-9212340202</p>
+        
+          <p style="margin-bottom: 50px;">© 2017, theeatingclub.co.in. All Rights Reserved.</p>
+        </div>
+        </section>
+      </body>
+        </div>
+    </div>
+</body>
+</html>
